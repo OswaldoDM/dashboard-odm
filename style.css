@@ -29,10 +29,11 @@ li {
 	--light-yellow: #FFF2C6;
 	--orange: #FD7238;
 	--light-orange: #FFE0D3;
+	--green: #3CB043
 }
 
 html {
-	overflow-x: hidden;
+	overflow-x: hidden;	
 }
 
 body.dark {
@@ -45,8 +46,6 @@ body {
 	background: var(--grey);
 	overflow-x: hidden;
 }
-
-
 
 
 
@@ -387,12 +386,12 @@ body {
 	color: var(--blue);
 }
 #content main .box-info li:nth-child(2) .bx {
-	background: var(--light-yellow);
-	color: var(--yellow);
+	background: var(--light-blue);
+	color: var(--blue);
 }
 #content main .box-info li:nth-child(3) .bx {
-	background: var(--light-orange);
-	color: var(--orange);
+	background: var(--light-blue);
+	color: var(--blue);
 }
 #content main .box-info li .text h3 {
 	font-size: 24px;
@@ -476,13 +475,13 @@ body {
 	font-weight: 700;
 }
 #content main .table-data .order table tr td .status.completed {
-	background: var(--blue);
+	background: var(--green);
 }
 #content main .table-data .order table tr td .status.process {
-	background: var(--yellow);
+	background: var(--blue);
 }
 #content main .table-data .order table tr td .status.pending {
-	background: var(--orange);
+	background: var(--red);
 }
 
 
@@ -510,7 +509,7 @@ body {
 	border-left: 10px solid var(--blue);
 }
 #content main .table-data .todo .todo-list li.not-completed {
-	border-left: 10px solid var(--orange);
+	border-left: 10px solid var(--red);
 }
 #content main .table-data .todo .todo-list li:last-child {
 	margin-bottom: 0;
